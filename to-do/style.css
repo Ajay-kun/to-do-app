@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #18146b;
+    border-radius: 20px;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+button {
+    padding: 8px 15px;
+    background-color: #47cfea;
+    color: rgb(18, 11, 11);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+button:hover {
+    background-color: #0f84a7;
+}
+.task {
+    margin-bottom: 10px;
+}
+.completed {
+    text-decoration: line-through;
+}
+
+#taskInput{
+
+    border: 0.px solid black;
+
+}
+h1, h2, h3,li{
+
+    color: white;
+}
